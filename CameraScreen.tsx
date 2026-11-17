@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Camera, RefreshCw, Zap, ZapOff, Image as ImageIcon, X, AlertCircle, Sparkles } from 'lucide-react';
-import { SAMPLE_OBJECTS, SampleObject } from '../utils/sampleImages';
+import { SAMPLE_OBJECTS } from "./sampleImages";
 
 interface CameraScreenProps {
   onCapture: (base64Image: string, userHint?: string) => void;
