@@ -1,10 +1,10 @@
 import React from 'react';
 import { Camera, Image as ImageIcon, Sparkles, ArrowRight, Recycle, Lightbulb, Compass, Zap, Flame, Award, ChevronRight } from 'lucide-react';
-import { SAMPLE_OBJECTS, SampleObject } from '../utils/sampleImages';
+import { SAMPLE_OBJECTS } from "./sampleImages";
 import { EcoAnalysisResult } from '../types/chePlaneta';
 import { PetState, EcoStreak, UserProfile } from '../types/gamification';
 import { CozyPlanetPet } from './CozyPlanetPet';
-import { getStageName } from '../utils/gamificationDefaults';
+import { getStageName } from "./gamificationDefaults";
 
 interface HomeScreenProps {
   onStartScan: () => void;
