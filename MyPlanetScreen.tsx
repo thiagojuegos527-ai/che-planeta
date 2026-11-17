@@ -25,7 +25,7 @@ import {
   BIOME_ITEMS,
   getStageName,
   getStageDescription,
-} from '../utils/gamificationDefaults';
+} from './gamificationDefaults';
 import { CozyPlanetPet } from './CozyPlanetPet';
 
 interface MyPlanetScreenProps {
