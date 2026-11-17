@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, MapPin, Clock, Phone, ExternalLink, Search, CheckCircle2, Navigation } from 'lucide-react';
-import { LOCAL_GREEN_POINTS } from '../utils/greenPoints';
+import { LOCAL_GREEN_POINTS } from "./greenPoints";
 import { GreenPoint } from '../types/chePlaneta';
 
 interface RecycleMapModalProps {
