@@ -3,7 +3,7 @@ import { Header } from './components/Header';
 import { TopGamificationBar } from './components/TopGamificationBar';
 import { BottomNav } from './components/BottomNav';
 import { HomeScreen } from './components/HomeScreen';
-import { CameraScreen } from './components/CameraScreen';
+import { CameraScreen } from "./CameraScreen";
 import { AnalyzingScreen } from './components/AnalyzingScreen';
 import { ResultsScreen } from './components/ResultsScreen';
 import { HistoryDrawer } from './components/HistoryDrawer';
