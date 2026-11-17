@@ -31,7 +31,7 @@ import {
   calculateXpForLevel,
   getStageForLevel,
   getStageName,
-} from './utils/gamificationDefaults';
+} from "./gamificationDefaults";;
 
 type ScreenState = 'home' | 'camera' | 'analyzing' | 'results';
 
