@@ -1,18 +1,19 @@
+
 import React, { useState, useEffect } from 'react';
-import { Header } from './components/Header';
-import { TopGamificationBar } from './components/TopGamificationBar';
-import { BottomNav } from './components/BottomNav';
-import { HomeScreen } from './components/HomeScreen';
-import { CameraScreen } from "./CameraScreen";
-import { AnalyzingScreen } from './components/AnalyzingScreen';
-import { ResultsScreen } from './components/ResultsScreen';
-import { HistoryDrawer } from './components/HistoryDrawer';
-import { MyPlanetScreen } from './components/MyPlanetScreen';
-import { MissionsScreen } from './components/MissionsScreen';
-import { ProfileScreen } from './components/ProfileScreen';
-import { StreakModal } from './components/StreakModal';
-import { EcoAnalysisResult } from './types/chePlaneta';
-import { SampleObject, SAMPLE_OBJECTS } from './utils/sampleImages';
+import { Header } from './Header';
+import { TopGamificationBar } from './TopGamificationBar';
+import { BottomNav } from './BottomNav';
+import { HomeScreen } from './HomeScreen';
+import { CameraScreen } from './CameraScreen';
+import { AnalyzingScreen } from './AnalyzingScreen';
+import { ResultsScreen } from './ResultsScreen';
+import { HistoryDrawer } from './HistoryDrawer';
+import { MyPlanetScreen } from './MyPlanetScreen';
+import { MissionsScreen } from './MissionsScreen';
+import { ProfileScreen } from './ProfileScreen';
+import { StreakModal } from './StreakModal';
+import { EcoAnalysisResult } from './chePlaneta';
+import { SampleObject, SAMPLE_OBJECTS } from './sampleImages';
 import {
   MainNavTab,
   PetState,
@@ -20,7 +21,7 @@ import {
   UserProfile,
   EcoMission,
   Badge,
-} from './types/gamification';
+} from './gamification';
 import {
   INITIAL_PET_STATE,
   INITIAL_STREAK,
