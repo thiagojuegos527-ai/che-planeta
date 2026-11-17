@@ -7,7 +7,7 @@ import {
   Accessory,
   PlanetBiomeItem,
 } from '../types/gamification';
-import { PET_PALETTES, ACCESSORIES, BIOME_ITEMS } from '../utils/gamificationDefaults';
+import { PET_PALETTES, ACCESSORIES, BIOME_ITEMS } from "./gamificationDefaults";
 import { Heart, Sparkles, Smile, Droplets } from 'lucide-react';
 
 interface CozyPlanetPetProps {
